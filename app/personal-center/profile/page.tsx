@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Textarea } from "@/components/ui/textarea"
 import {
   ArrowLeft,
@@ -76,7 +76,7 @@ export default function ProfileEditPage() {
             <div className="flex flex-col items-center">
               <div className="relative mb-4">
                 <Avatar className="h-28 w-28 border-4 border-white shadow-md">
-                  <AvatarImage src="/images/user-avatar.png" />
+                  <AvatarImage src="/images/logo.png" />
                   <AvatarFallback className="bg-blue-400 text-white text-3xl">U</AvatarFallback>
                 </Avatar>
                 <Button 

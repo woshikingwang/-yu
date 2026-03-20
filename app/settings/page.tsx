@@ -102,7 +102,7 @@ export default function SettingsPage() {
               <CardContent className="p-6">
                 <div className="flex items-center gap-6">
                   <Avatar className="h-24 w-24">
-                    <AvatarImage src="/images/user-avatar.png" />
+                    <AvatarImage src="/images/logo.png" />
                     <AvatarFallback className="bg-blue-400 text-white text-2xl">U</AvatarFallback>
                   </Avatar>
                   <div className="flex-1 space-y-4">

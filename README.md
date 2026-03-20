@@ -50,6 +50,19 @@ pnpm build
 
 > **提示：** Node.js 版本需 >= 18.17
 
+## 部署到 Vercel
+
+本项目针对 **Vercel** 与 **Next.js** 做了优化，推荐使用 Vercel 一键部署。
+
+### 配置说明
+
+1. **从 GitHub 导入**：在 [Vercel](https://vercel.com) 选择「Add New → Project」，导入本仓库（如 `woshikingwang/-yu`），分支选 `main`。
+2. **框架与目录**：Framework Preset 保持 **Next.js**，Root Directory 保持 **./** 即可。
+3. **构建与安装**：Build Command、Output Directory、Install Command 使用默认值（Vercel 会自动识别 `next build` 与包管理器）。
+4. **环境变量**：当前 Demo 无需配置环境变量即可构建与运行。若后续接入真实 API（如 DeepSeek、数据库等），请在 Vercel 项目 **Settings → Environment Variables** 中添加对应变量（如 `NEXT_PUBLIC_*` 或服务端密钥）。
+
+部署完成后，Vercel 会提供 `xxx.vercel.app` 的访问地址，并支持在每次推送到 `main` 时自动重新部署。
+
 ## 目录结构
 
 ```
